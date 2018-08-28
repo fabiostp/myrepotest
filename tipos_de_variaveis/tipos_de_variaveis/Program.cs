@@ -18,6 +18,7 @@ namespace tipos_de_variaveis
             var e = 1.5;
             long  f = 922337203685477507; //máximo de armazenamento
             int g = 2147483647; //máximo de armazenamento
+            float ff = 1.5f;
 
                        
             Console.WriteLine(a);
@@ -27,6 +28,7 @@ namespace tipos_de_variaveis
             Console.WriteLine(e);
             Console.WriteLine(f);
             Console.WriteLine(g);
+            Console.WriteLine(ff);
 
 
         }
