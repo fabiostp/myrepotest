@@ -11,14 +11,23 @@ namespace tipos_de_variaveis
         static void Main(string[] args)
         {
 
-            int i = 1;
-            //i = "s";
+            var a = "String";
+            var b = 999.00;
+            var c = 1;
+            string d = "Fábio Teles";
+            var e = 1.5;
+            long  f = 922337203685477507; //máximo de armazenamento
+            int g = 2147483647; //máximo de armazenamento
 
-            var x = 1;
-            // x = "333";
+                       
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+            Console.WriteLine(e);
+            Console.WriteLine(f);
+            Console.WriteLine(g);
 
-            Console.WriteLine(i);
-            Console.WriteLine(x);
 
         }
     }
