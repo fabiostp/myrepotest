@@ -11,7 +11,7 @@ namespace tipos_de_variaveis
         static void Main(string[] args)
         {
 
-            var a = "String";
+            //var a = "String";
             var b = 999.00;
             var c = 1;
             string d = "Fábio Teles";
@@ -21,16 +21,39 @@ namespace tipos_de_variaveis
             float ff = 1.5f;
 
                        
-            Console.WriteLine(a);
-            Console.WriteLine(b);
-            Console.WriteLine(c);
-            Console.WriteLine(d);
-            Console.WriteLine(e);
-            Console.WriteLine(f);
-            Console.WriteLine(g);
-            Console.WriteLine(ff);
+            //Console.WriteLine("Conteúdo da variável 01 = " + a);
+            Console.WriteLine("Conteúdo da variável 02 = " + b);
+            Console.WriteLine("Conteúdo da variável 03 = " + c);
+            Console.WriteLine("Conteúdo da variável 04 = " + d);
+            Console.WriteLine("Conteúdo da variável 05 = " + e);
+            Console.WriteLine("Conteúdo da variável 05 = " + f);
+            Console.WriteLine("Conteúdo da variável 06 = " + g);
+            Console.WriteLine("Conteúdo da variável 07 = " + ff);
+
+            Animal a = new Animal();
+            Leao l = new Leao();
+
+            l = (Leao) a;
+            a = l;
+
+            Convert.ToChar(d);
+            Convert.ToString(f);
 
 
         }
+
     }
+
+
+    public class Animal
+        {
+
+        }
+       
+
+    public class Leao : Animal
+        {
+
+        }
+   
 }
