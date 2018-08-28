@@ -9,5 +9,7 @@ namespace Meu.Teste
     public class MinhaClasse
     {
         public string TESTE { get; set; }
+
+        
     }
 }
